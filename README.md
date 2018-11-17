@@ -1,18 +1,28 @@
 # VuePress Examples
 
-## BootStrap
+## Development
+
+- Bootstrap:
 
 ```bash
 yarn bootstrap
 ```
 
-## Run Example
+- Run Example:
 
 ```bash
 yarn dev [example]
+yarn build [example]
 ```
 
-Available examples:
+> Available examples for now:
+> - jquery
 
-- jquery
+- Preview:
+
+```bash
+yarn preview
+```
+
+
 
