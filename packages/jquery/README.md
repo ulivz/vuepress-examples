@@ -113,3 +113,18 @@ module.exports = {
 ```
 
 The remaining steps are the same as not using CDN.
+
+## From Local File
+
+If you don’t want to use the CDN, it’s easy enough to switch to jQuery files hosted on your own domain.
+
+First, put the script file (e.g. `jquery.min.js`) under `.vuepress/public/`, then update your site config:
+
+```js
+// .vuepress/config.js
+module.exports = { 
+  head: [
+    ['script', { src: '/jquery.min.js' }]
+  ]
+}
+```
