@@ -1,5 +1,9 @@
 # VuePress Examples
 
+## Website
+
+https://vuepress-examples.ulivz.com
+
 ## Development
 
 - Bootstrap:
@@ -15,8 +19,7 @@ yarn dev [example]
 yarn build [example]
 ```
 
-> Available examples for now:
-> - jquery
+> Available examples for now: **jquery**
 
 - Preview:
 
