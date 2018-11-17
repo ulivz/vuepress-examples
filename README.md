@@ -29,5 +29,9 @@ yarn build [example]
 yarn preview
 ```
 
+## License
+
+[MIT](https://github.com/ulivz/vuepress-examples/blob/master/LICENSE)
+
 
 
