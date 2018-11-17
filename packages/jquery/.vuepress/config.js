@@ -1,4 +1,9 @@
 module.exports = {
   dest: '../../website/jquery',
-  base: '/jquery/'
+  base: '/jquery/',
+  themeConfig: {
+    navbar: false,
+    editLinks: true,
+    docsDir: 'packages/jquery',
+  }
 }

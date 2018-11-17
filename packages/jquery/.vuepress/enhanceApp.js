@@ -7,6 +7,5 @@ export default ({ isServer }) => {
     require('owl.carousel')
     require('owl.carousel/dist/assets/owl.carousel.min.css')
     require('owl.carousel/dist/assets/owl.theme.default.min.css')
-    require('owl.carousel/docs/assets/css/docs.theme.min.css')
   }
 }

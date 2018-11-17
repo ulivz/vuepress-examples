@@ -39,3 +39,14 @@
     }
   }
 </script>
+
+<style>
+  #demos .owl-carousel .item {
+    height: 10rem;
+    background: #4DC7A0;
+    padding: 1rem;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  }
+</style>
