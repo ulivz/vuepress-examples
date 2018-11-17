@@ -4,6 +4,10 @@
 
 https://vuepress-examples.ulivz.com
 
+## Examples
+
+- [Using jQuery in VuePress](https://vuepress-examples.ulivz.com/jquery/)
+
 ## Development
 
 - Bootstrap:
@@ -18,8 +22,6 @@ yarn bootstrap
 yarn dev [example]
 yarn build [example]
 ```
-
-> Available examples for now: **jquery**
 
 - Preview:
 
