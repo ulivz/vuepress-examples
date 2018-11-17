@@ -3,7 +3,10 @@ module.exports = {
   base: '/jquery/',
   themeConfig: {
     navbar: false,
-    editLinks: true,
     docsDir: 'packages/jquery',
+    repo: 'ulivz/vuepress-examples',
+    editLinks: true,
+    editLinkText: 'Edit this page on GitHub',
+    lastUpdated: 'Last Updated',
   }
 }
