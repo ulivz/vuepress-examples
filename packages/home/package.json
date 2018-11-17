@@ -1,0 +1,7 @@
+{
+  "name": "home",
+  "scripts": {
+    "dev": "vuepress dev --temp .temp/dev",
+    "build": "vuepress build --temp .temp/build"
+  }
+}

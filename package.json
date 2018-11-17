@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "dev": "node scripts/run.js dev",
+    "build": "node scripts/run.js build",
+    "ci": "node scripts/ci.js",
+    "preview": "yarn ci && cd website && http-server"
+  },
+  "devDependencies": {
+    "lerna": "^3.3.0",
+    "vuepress": "^1.0.0-alpha.22"
+  }
+}
