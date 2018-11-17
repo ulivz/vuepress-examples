@@ -4,7 +4,7 @@ sidebar: auto
 
 # Using jQuery in VuePress
 
-## Getting Started
+## From Dependency
 
 1. Install jQuery:
 
@@ -32,7 +32,7 @@ You cannot to import `jquery` at the top directly because the `enhanceApp.js` wi
 See: [Browser API Access Restrictions](https://vuepress.vuejs.org/guide/using-vue.html#browser-api-access-restrictions)
 :::
 
-3. Writing a Vue component ( e.g. `.vuepress/components/Carousel.vue`):
+3. Create a Vue component ( e.g. `.vuepress/components/Carousel.vue`):
 
 ```vue
 <template>
@@ -98,3 +98,18 @@ See: [Browser API Access Restrictions](https://vuepress.vuejs.org/guide/using-vu
 5. Then you will get:
 
 <Carousel/>
+
+## From CDN
+
+If you want to use a juqery from CDN, You need to add jQuery via [head](https://vuepress.vuejs.org/config/#head):
+
+```js
+// .vuepress/config.js
+module.exports = { 
+  head: [
+    ['script', { src: 'https://code.jquery.com/jquery-3.3.1.min.js' }]
+  ]
+}
+```
+
+The remaining steps are the same as not using CDN.
